@@ -1,0 +1,56 @@
+body {
+    background-color: #060817;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    padding: 10px;
+    margin: auto;
+    display:flex;
+    width:250px;
+    border-radius:25%;
+}
+
+.title{
+    color: #a9a9a9;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.device-container {
+    display: flex; /* div 7ad ba3ed */
+    flex-wrap: wrap; /* div byenzalo bas nza8ir chechi */
+    gap: 20px; /* massefet bayneton */
+    padding: 20px; /* bo3ed 3an tarf l div asesiyu */
+    justify-content: center; /* div bnes chchi */
+}
+.device-card {
+    background-color: #FFD700;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s;
+}
+.device-card:hover {
+    transform: scale(1.05);
+}
+.device-image {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.device-price {
+    
+    font-weight: bold;
+    color: #504f4f;
+    margin-top: 10px;
+}
+.rem{
+    text-align: center;
+    color: #d60000;
+    font-size: 20px;
+}

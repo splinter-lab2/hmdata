@@ -1,0 +1,65 @@
+<html>
+<head>
+   <title>TOUCH</title>
+    <link rel="stylesheet" href="C:\Users\ASUS\OneDrive\Desktop\Codes\Projet (1)  I1101\CSS Files\touch.css">
+</head>
+<body>
+    <img  class="logo" src="C:\Users\ASUS\OneDrive\Desktop\Codes\Projet (1)  I1101\Images\TOUCHLogo.jpg">
+  <br/>
+  <script>
+    function f1(){
+       z='The price of $$ you want is : '
+       x=prompt("Enter the Number of $$ you want :");
+       c='000';
+       y=x;
+       if(x%3==0)y=x*105;
+       if(x%3==2)y=((x-(x%3))*105+(x%3)*110);
+       if(x%3==1)y=((x-(x%3))*105+(x%3)*115);
+       document.getElementById("p1").innerHTML=z+y+c;
+    }
+        </script>
+     <div class="category">
+            <h2>ALFA Dollars $$</h2>
+            <center>
+          
+                <input type="button" value="Click here to select the number of $$ you want" class="info" onclick="f1()">
+                <br/>
+                <ul id="u1"><li id="p1">Click above</li></ul>
+               
+            </div>
+    </center>
+    <br/>
+    <div class="category">
+        <h2>TOUCH Validity</h2>
+        <center><input type="button" value="Click here for Information" class="info" onclick="alert('')"></center><br/>
+        <ul class="price-list">
+            <li><span class="item">1 month</span> <span class="price">250,000 LL</span></li>
+            <li><span class="item">3 months</span> <span class="price">550,000 LL</span></li>
+            <li><span class="item">6 months</span> <span class="price">900,000 LL</span></li>
+            <li><span class="item">1 year</span> <span class="price">1,600,000 LL</span></li>
+            
+        </ul>
+    </div>
+    <br/>
+    <div class="category">
+        <h2>TOUCH Mobile Internet</h2>
+        <center>
+            <input type="button"  class="info" value="Click here for Information" onclick="alert('')">
+                </center> <br/>
+    
+    <ul class="price-list">
+            <li><span class="item">500 MB</span> <span class="price">350,000</span></li>
+            <li><span class="item">1.5 GB</span> <span class="price">600,000</span></li>
+            <li><span class="item">10 GB</span> <span class="price">1,100,000</span></li>
+            <li><span class="item">20 GB</span> <span class="price">1,300,000</span></li>
+            <li><span class="item">30 GB</span> <span class="price">1,600,000</span></li>
+            <li><span class="item">40 GB</span> <span class="price">2,950,000</span></li>
+            <li><span class="item">60 GB</span> <span class="price">2,300,000</span></li>
+            <li><span class="item">70 GB</span> <span class="price">2,600,000</span></li>
+            <li><span class="item">100 GB</span> <span class="price">3,600,000</span></li>
+            <li><span class="item">200 GB</span> <span class="price">6,400,000</span></li>
+        </ul>
+    </div>
+   
+</body>
+</html>
